@@ -1,0 +1,93 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  }
+
+.heroBackground {
+  background-image: url("../images/heroBackground.png");
+  background-size: cover;
+  margin: 0%;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logoArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px
+}
+
+.logo {
+  height: 75%;
+  width: auto;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; 
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: auto;
+  padding: 5%;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: auto;
+}
+
+.appetit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: auto;
+  padding: 5%;
+}
+
+.sdZoo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 75%;
+  height: auto;
+  padding: 5%;
+}
+
+.footer {
+  display: flex;
+  background: #D9ADAC;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.navButtons a {
+  padding: 20px 40px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.navButtons a:hover {
+  color: #F69F8E;
+}
+
+@media only screen and (max-width: 600){
+
+}
+]
