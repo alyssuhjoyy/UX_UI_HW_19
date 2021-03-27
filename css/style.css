@@ -5,20 +5,53 @@ body {
 .heroBackground {
   background-image: url("../images/heroBackground.png");
   background-size: cover;
+  max-height: 900px;
   margin: 0%;
 }
-.navBar {
+
+.nav-list {
+  background-color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px var(--clr-gray200);
+  margin:0;
+  padding: 1rem 0;
+  border-radius: var(--radius);
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  height: 100px;
+  max-height: 25px;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.nav-item a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  color: black;
+}
+
+.nav-item a:hover{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #F69F8E;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.nav-item:first-child {
+  margin-right:auto;
+  margin-left: 1rem;
 }
 
 .logoArea {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 750px
+  height: 600px;
 }
 
 .logo {
@@ -28,9 +61,14 @@ body {
 
 .socialMedia {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 200px; 
+}
+
+.social {
+  height: 50%;
+  width: auto;
 }
 
 .about {
@@ -54,7 +92,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 65%;
   height: auto;
   padding: 5%;
 }
@@ -77,24 +115,12 @@ body {
   padding: 5%;
 }
 
-
 .footer {
   display: flex;
   background: #D9ADAC;
   justify-content: center;
   align-items: center;
   height: 100px;
-}
-
-.navButtons a {
-  padding: 20px 40px;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-  color: black;
-}
-
-.navButtons a:hover {
-  color: #F69F8E;
 }
 
 .top-link {
@@ -116,8 +142,16 @@ body {
   border-radius: 15px #D9ADAC;
 }
 
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
 
 @media only screen and (max-width: 600){
 
 }
-]
