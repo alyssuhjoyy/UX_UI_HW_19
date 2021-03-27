@@ -68,6 +68,16 @@ body {
   padding: 5%;
 }
 
+.project3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 75%;
+  height: auto;
+  padding: 5%;
+}
+
+
 .footer {
   display: flex;
   background: #D9ADAC;
@@ -86,6 +96,26 @@ body {
 .navButtons a:hover {
   color: #F69F8E;
 }
+
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  border-radius: 50%;
+  padding: .25em;
+  width: 80px;
+  height: 80px;
+  background-color: #f8f8f8;
+  border-radius: 15px #D9ADAC;
+}
+
 
 @media only screen and (max-width: 600){
 
