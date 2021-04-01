@@ -71,13 +71,31 @@ body {
   width: auto;
 }
 
-.about {
-  display: flex;
+.aboutContainer {
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 100% auto;
   height: auto;
   padding: 5%;
+}
+
+.circles{
+  background-color: white;
+  border-radius: 50%;
+}
+
+.about-tabs {
+  display: flex;
+  background-color: black;
+  padding: 15px;
+}
+
+.about-item {
+  list-style: none;
+}
+
+.about-item a{
+  color:white;
 }
 
 .projects {
