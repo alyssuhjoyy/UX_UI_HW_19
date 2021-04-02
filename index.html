@@ -44,44 +44,36 @@
         </section>
     </div>
 
-    <p> test mode </p>
+    <br>
 
     <!-- About Me HTML -->
-    <section class="about">
-        <img src="images/aboutMe.png" alt="logo" class="aboutMe">
-    </section>
-
-    <section class="about">
-        <div class="aboutContainer">
-            <ul class="about-tabs">
-                <li class="about-item">
-                    <img src="images/window-menu.png">
-                </li>
-                <li class="about-item">
-                    <a href="#">ABOUT ME</a>
-                </li>
-                <li class="about-item">
-                    <a href="#">MY SKILLS</a>
-                </li>
-                <li class="about-item">
-                    <a href="#">UX TOOLS</a>
-                </li>
-                <li class="about-item">
-                    <a href="#">X</a>
-                </li>
-            </ul>
-            <div class="about-text">
-                <h1>Hi, I'm Alyssa</h1>
-                <h2>I'm an aspiring UX/UI Designer based in Orange County, CA.</h2>
-                <h2>I am passionate about finding solutions for products and services.</h2>
-            </div>
+    <div class="title">
+        <h1 class="title-text">About Me</h1>
+    </div>
+    <div class="about"></div>
+    <div class="tabContainer">
+        <div class="buttonContainer">
+            <button onclick="showPanel (0,'#F69F8E')">Hello!</button>
+            <button onclick="showPanel (1,'#F69F8E')">Skills</button>
+            <button onclick="showPanel (2,'#F69F8E')">Tools</button>
+            <button onclick="showPanel (3,'#F69F8E')">Resume</button>
         </div>
-    </section>
+        <div class="tabPanel">
+            <h2>Hi, I'm Alyssa</h2>
+            <h3>I'm an aspiring UX/UI Designer based in Orange County, CA. </h3>
+            <h3>I am passionate about finding solutions for products and services.</h3>
+        </div>
+        <div class="tabPanel"> Tab 2: Content</div>
+        <div class="tabPanel"> Tab 3: Content</div>
+        <div class="tabPanel"> Tab 4: Content</div>
+    </div>
+    </div>
 
     <!-- My Projects HTML -->
-    <section class="projects">
-        <img src="images/projects.png" alt="projects" class="projects">
-    </section>
+
+    <div class="title">
+        <h1 class="title-text">Projects</h1>
+    </div>
 
     <section class="apetit">
         <img src="images/appetit.png" alt="projects" class="appetit">
@@ -106,7 +98,7 @@
     </footer>
 
     <a class="top-link hide" href="" id="js-top">
-        <img src="images/scroll-top.svg">
+        <img src="images/scroll-to-top.svg">
     </a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

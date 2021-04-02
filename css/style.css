@@ -2,6 +2,8 @@ body {
   font-family: 'Poppins', sans-serif;
   }
 
+/* Hero/ Top Nav */
+
 .heroBackground {
   background-image: url("../images/heroBackground.png");
   background-size: cover;
@@ -71,33 +73,67 @@ body {
   width: auto;
 }
 
-.aboutContainer {
-  justify-content: center;
-  align-items: center;
-  width: 100% auto;
-  height: auto;
-  padding: 5%;
+/* Section Titles */
+.title-text {
+  color: #black;
+  text-align: center;
 }
 
-.circles{
-  background-color: white;
-  border-radius: 50%;
-}
+/* About Me */
 
-.about-tabs {
+.tabContainer {
+  height: 800px;
+  width: 100%;
   display: flex;
-  background-color: black;
-  padding: 15px;
+  flex-direction: column;
 }
 
-.about-item {
-  list-style: none;
+.tabContainer .buttonContainer {
+  max-height: 150px;
 }
 
-.about-item a{
+.tabContainer .buttonContainer button {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #eee;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.tabContainer .buttonContainer button:hover {
+  background-color: #d7d4d4;
+}
+
+.tabContainer .tabPanel {
+  height: 85%;
+  background-color: gray;
   color:white;
+  text-align: center;
+  padding: 100px;
+  box-sizing: border-box;
+  font-size: 16px;
+  display: none;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* Projects */
 .projects {
   display: flex;
   justify-content: center;
@@ -133,6 +169,7 @@ body {
   padding: 5%;
 }
 
+/* Footer */
 .footer {
   display: flex;
   background: #D9ADAC;
@@ -141,6 +178,7 @@ body {
   height: 100px;
 }
 
+/* Scroll to Top */
 .top-link {
   transition: all .25s ease-in-out;
   position: fixed;
@@ -170,6 +208,7 @@ body {
   opacity: 0;
 }
 
+/* Media Screen */
 @media only screen and (max-width: 600){
 
 }
